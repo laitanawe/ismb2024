@@ -3,4 +3,4 @@ workflows:
   - subclass: WDL
     primaryDescriptorPath: /hello_input_wdl_example.wdl
     testParameterFiles:
-      - input.json
+      - /input.json
