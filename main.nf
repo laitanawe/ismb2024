@@ -3,6 +3,7 @@
 nextflow.enable.dsl = 2
 
 params.input = "hello_input_wdl_example.wdl"
+//params.input = "hello_input_wdl_example.wdl"
 
 workflow {
 
