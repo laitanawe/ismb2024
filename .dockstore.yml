@@ -4,3 +4,6 @@ workflows:
     primaryDescriptorPath: /hello_input_wdl_example.wdl
     testParameterFiles:
       - /input.json
+  - subclass: NFL      
+    primaryDescriptorPath: /main.nf
+    name: nextflow_example 
