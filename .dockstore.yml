@@ -5,5 +5,5 @@ workflows:
     testParameterFiles:
       - /input.json
   - subclass: NFL      
-    primaryDescriptorPath: /main.nf
+    primaryDescriptorPath: /nextflow.config
     name: nextflow_example 
