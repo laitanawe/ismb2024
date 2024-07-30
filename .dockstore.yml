@@ -7,3 +7,9 @@ workflows:
   - subclass: NFL      
     primaryDescriptorPath: /nextflow.config
     name: nextflow_example 
+tools:
+  - subclass: CWL
+    primaryDescriptorPath: /cat3-tool-mediumcut.cwl
+    testParameterFiles:
+      - /cat-job.json
+    name: cwl_example
