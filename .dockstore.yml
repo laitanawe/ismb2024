@@ -7,6 +7,9 @@ workflows:
   - subclass: NFL      
     primaryDescriptorPath: /nextflow.config
     name: nextflow_example 
+  - subclass: GALAXY
+    primaryDescriptorPath: /Galaxy-Workflow-reverse_file_galaxy_workflow.ga
+    name: galaxy_example
 tools:
   - subclass: CWL
     primaryDescriptorPath: /cat3-tool-mediumcut.cwl
